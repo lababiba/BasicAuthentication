@@ -7,7 +7,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class NetworkService {
 
-    public static final String API_BASE_URL = "http://192.168.0.107:8080/";
+    public static final String API_BASE_URL = "http://192.168.0.108" +
+            ":8080/";
 
     public static <S> S createService(Class<S> serviceClass) {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();

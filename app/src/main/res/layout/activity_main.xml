@@ -7,7 +7,7 @@
     tools:context="com.example.lababiba.basicauthentication.MainActivity">
 
     <Button
-        android:id="@+id/start"
+        android:id="@+id/send_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start"
@@ -26,4 +26,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.604" />
+    <Button
+        android:id="@+id/get_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
 </android.support.constraint.ConstraintLayout>
